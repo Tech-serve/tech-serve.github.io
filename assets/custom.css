@@ -1,0 +1,24 @@
+.custom-tab{
+    max-width: 50% !important;
+}
+#main .o-container.width-adaptive{
+    padding-bottom: 30px !important;
+}
+
+@media(max-width:833px){
+    #asyncFooter .ftNav .ftZn2 ul,
+    #asyncFooter .ftZn3{
+        display: none  !important;
+        flex-wrap: wrap !important;
+    }
+
+    #main .content#footer{
+        min-width: 100% !important;
+
+    }
+    #custom-banner{
+        display: none !important;
+    }
+}
+
+
